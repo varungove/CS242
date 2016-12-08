@@ -1,0 +1,118 @@
+\hypertarget{classchess_game_1_1_chess_board}{}\section{chess\+Game.\+Chess\+Board Class Reference}
+\label{classchess_game_1_1_chess_board}\index{chess\+Game.\+Chess\+Board@{chess\+Game.\+Chess\+Board}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classchess_game_1_1_chess_board_a5c11ece644fcc726a8ab56bbfb468c0f}{Chess\+Board} ()
+\item 
+\hyperlink{classchess_game_1_1_piece}{Piece} \hyperlink{classchess_game_1_1_chess_board_aca77ba8af70e7dffc7a48622adcd5ee9}{get\+Piece} (int x, int y)
+\item 
+boolean \hyperlink{classchess_game_1_1_chess_board_a09726ab6e513a982fe2a0bec12ec4da7}{check\+Selection} (int x, int y, int turn)
+\item 
+void \hyperlink{classchess_game_1_1_chess_board_a14a29737ff8ff4fcbb08b87e9f91f385}{make\+Move} (int x, int y, int newx, int newy)
+\item 
+boolean \hyperlink{classchess_game_1_1_chess_board_a082e7ad980f8591576dafcedbcf284ec}{check\+Check} (int turn)
+\item 
+boolean \hyperlink{classchess_game_1_1_chess_board_ac6925c5d6c7d25cef9b657b867d136f5}{check\+Check\+Mate} (int turn)
+\item 
+boolean \hyperlink{classchess_game_1_1_chess_board_a99b81fc49623a944c30e377e97e2d037}{check\+Check} (int turn, int KingX, int KingY)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classchess_game_1_1_piece}{Piece} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classchess_game_1_1_chess_board_ac851bb6b1a6562f524230678e6ea04d4}{board}
+\item 
+int \hyperlink{classchess_game_1_1_chess_board_a7a22897cc91cbd040a4eb3b67be91a3a}{white\+KingX}
+\item 
+int \hyperlink{classchess_game_1_1_chess_board_a6387ba212f7d9ee61e38c35d4e26d4c8}{white\+KingY}
+\item 
+int \hyperlink{classchess_game_1_1_chess_board_acf7d7d0beb32c7eb5f180e2666866193}{black\+KingX}
+\item 
+int \hyperlink{classchess_game_1_1_chess_board_a0e5e5606cb430679898f945204c27c94}{black\+KingY}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classchess_game_1_1_chess_board_a5c11ece644fcc726a8ab56bbfb468c0f}{}\label{classchess_game_1_1_chess_board_a5c11ece644fcc726a8ab56bbfb468c0f} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!Chess\+Board@{Chess\+Board}}
+\index{Chess\+Board@{Chess\+Board}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{Chess\+Board()}{ChessBoard()}}
+{\footnotesize\ttfamily chess\+Game.\+Chess\+Board.\+Chess\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classchess_game_1_1_chess_board_a082e7ad980f8591576dafcedbcf284ec}{}\label{classchess_game_1_1_chess_board_a082e7ad980f8591576dafcedbcf284ec} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!check\+Check@{check\+Check}}
+\index{check\+Check@{check\+Check}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{check\+Check()}{checkCheck()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean chess\+Game.\+Chess\+Board.\+check\+Check (\begin{DoxyParamCaption}\item[{int}]{turn }\end{DoxyParamCaption})}
+
+\hypertarget{classchess_game_1_1_chess_board_a99b81fc49623a944c30e377e97e2d037}{}\label{classchess_game_1_1_chess_board_a99b81fc49623a944c30e377e97e2d037} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!check\+Check@{check\+Check}}
+\index{check\+Check@{check\+Check}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{check\+Check()}{checkCheck()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean chess\+Game.\+Chess\+Board.\+check\+Check (\begin{DoxyParamCaption}\item[{int}]{turn,  }\item[{int}]{KingX,  }\item[{int}]{KingY }\end{DoxyParamCaption})}
+
+\hypertarget{classchess_game_1_1_chess_board_ac6925c5d6c7d25cef9b657b867d136f5}{}\label{classchess_game_1_1_chess_board_ac6925c5d6c7d25cef9b657b867d136f5} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!check\+Check\+Mate@{check\+Check\+Mate}}
+\index{check\+Check\+Mate@{check\+Check\+Mate}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{check\+Check\+Mate()}{checkCheckMate()}}
+{\footnotesize\ttfamily boolean chess\+Game.\+Chess\+Board.\+check\+Check\+Mate (\begin{DoxyParamCaption}\item[{int}]{turn }\end{DoxyParamCaption})}
+
+\hypertarget{classchess_game_1_1_chess_board_a09726ab6e513a982fe2a0bec12ec4da7}{}\label{classchess_game_1_1_chess_board_a09726ab6e513a982fe2a0bec12ec4da7} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!check\+Selection@{check\+Selection}}
+\index{check\+Selection@{check\+Selection}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{check\+Selection()}{checkSelection()}}
+{\footnotesize\ttfamily boolean chess\+Game.\+Chess\+Board.\+check\+Selection (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{turn }\end{DoxyParamCaption})}
+
+\hypertarget{classchess_game_1_1_chess_board_aca77ba8af70e7dffc7a48622adcd5ee9}{}\label{classchess_game_1_1_chess_board_aca77ba8af70e7dffc7a48622adcd5ee9} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!get\+Piece@{get\+Piece}}
+\index{get\+Piece@{get\+Piece}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{get\+Piece()}{getPiece()}}
+{\footnotesize\ttfamily \hyperlink{classchess_game_1_1_piece}{Piece} chess\+Game.\+Chess\+Board.\+get\+Piece (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\hypertarget{classchess_game_1_1_chess_board_a14a29737ff8ff4fcbb08b87e9f91f385}{}\label{classchess_game_1_1_chess_board_a14a29737ff8ff4fcbb08b87e9f91f385} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!make\+Move@{make\+Move}}
+\index{make\+Move@{make\+Move}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{make\+Move()}{makeMove()}}
+{\footnotesize\ttfamily void chess\+Game.\+Chess\+Board.\+make\+Move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{newx,  }\item[{int}]{newy }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classchess_game_1_1_chess_board_acf7d7d0beb32c7eb5f180e2666866193}{}\label{classchess_game_1_1_chess_board_acf7d7d0beb32c7eb5f180e2666866193} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!black\+KingX@{black\+KingX}}
+\index{black\+KingX@{black\+KingX}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{black\+KingX}{blackKingX}}
+{\footnotesize\ttfamily int chess\+Game.\+Chess\+Board.\+black\+KingX\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{classchess_game_1_1_chess_board_a0e5e5606cb430679898f945204c27c94}{}\label{classchess_game_1_1_chess_board_a0e5e5606cb430679898f945204c27c94} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!black\+KingY@{black\+KingY}}
+\index{black\+KingY@{black\+KingY}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{black\+KingY}{blackKingY}}
+{\footnotesize\ttfamily int chess\+Game.\+Chess\+Board.\+black\+KingY\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{classchess_game_1_1_chess_board_ac851bb6b1a6562f524230678e6ea04d4}{}\label{classchess_game_1_1_chess_board_ac851bb6b1a6562f524230678e6ea04d4} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!board@{board}}
+\index{board@{board}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily \hyperlink{classchess_game_1_1_piece}{Piece} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} chess\+Game.\+Chess\+Board.\+board\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{classchess_game_1_1_chess_board_a7a22897cc91cbd040a4eb3b67be91a3a}{}\label{classchess_game_1_1_chess_board_a7a22897cc91cbd040a4eb3b67be91a3a} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!white\+KingX@{white\+KingX}}
+\index{white\+KingX@{white\+KingX}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{white\+KingX}{whiteKingX}}
+{\footnotesize\ttfamily int chess\+Game.\+Chess\+Board.\+white\+KingX\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{classchess_game_1_1_chess_board_a6387ba212f7d9ee61e38c35d4e26d4c8}{}\label{classchess_game_1_1_chess_board_a6387ba212f7d9ee61e38c35d4e26d4c8} 
+\index{chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}!white\+KingY@{white\+KingY}}
+\index{white\+KingY@{white\+KingY}!chess\+Game\+::\+Chess\+Board@{chess\+Game\+::\+Chess\+Board}}
+\subsubsection{\texorpdfstring{white\+KingY}{whiteKingY}}
+{\footnotesize\ttfamily int chess\+Game.\+Chess\+Board.\+white\+KingY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess\+Game/\hyperlink{_chess_board_8java}{Chess\+Board.\+java}\end{DoxyCompactItemize}

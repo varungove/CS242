@@ -1,0 +1,35 @@
+Manual Test GUI
+
+INITIAL TESTS: 
+
+-Open Eclipse
+-Launch main method from GUI
+-Check if initial board is correct
+-Check if game starts with player one's (white) turn
+-Check to see if player can only select his/her pieces
+
+GAME FLOW TESTS:
+
+- Select a valid piece and an invalid destination. Error should print.
+- Select a valid piece and a valid destination. Make sure move happens.
+- Capture an opponents piece and see if there piece is now gone. 
+- Move the game into check and see if a check message is displayed. 
+- Move the game into check-mate and see if a message is displayed and game ends. 
+
+CUSTOM PIECES TESTS:
+
+- In a new game, click the custom button and see if custom pieces are now available.
+- In an ongoing game, clock the custom button and see that nothing happens. 
+
+RESTART TEST:
+- Click restart and see if the user is prompted to accept. 
+- If user says Yes, game should restart.
+- If user says No, game should resume. 
+
+UNDO TEST:
+- Make a valid move and click undo.
+- Check if the last move was undone.
+
+FORFEIT TEST:
+- Click forfeit and see if the game ended
+ 

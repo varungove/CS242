@@ -1,0 +1,56 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header{
+    padding: 1em;
+    color: white;
+    background-color: #645570;
+    clear: left;
+    text-align: center;
+}
+
+
+body {
+    background-color: #b0e0e6;
+}
+
+div.overview {
+
+display: inline-block;
+background-color: #996969;
+margin: 20px 0 20px 0;
+ padding: 20px;
+ float: left;
+}
+
+div.files {
+
+display: inline-block;
+background-color: #D3D3D3;
+margin: 20px 0 20px 0;
+ padding: 20px;
+ float: left;
+ clear: left;
+}
+
+div.comment {
+
+display: inline-block;
+background-color: #645570;
+margin: 20px 0 20px 0;
+ padding: 20px;
+ float: left;
+ clear: left;
+}
+
+div.reply {
+
+display: inline-block;
+background-color: #996969;
+margin: 20px 0 20px 0;
+ padding: 20px;
+ float: left;
+ clear: left;
+}
